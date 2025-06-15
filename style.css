@@ -1,0 +1,48 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #333;
+}
+.hero {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.hero-bg {
+  width: 100%;
+  height: auto;
+}
+.hero-content {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+}
+.logo {
+  width: 200px;
+  margin-bottom: 20px;
+}
+h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+.subheadline {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+.cta-buttons {
+  margin-top: 20px;
+}
+.button {
+  background-color: #fcd900;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+}
