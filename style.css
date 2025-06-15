@@ -49,15 +49,17 @@ h1 {
   border-radius: 5px;
   display: inline-block;
 
-  .site-header {
+ .site-header {
   background-color: white;
-  padding: 10px 0;
   text-align: center;
+  padding: 10px 0;
+  z-index: 1000;
+  position: relative;
 }
 
 .site-header img {
-  height: 80px;
   max-width: 300px;
+  height: auto;
 }
 
 }
