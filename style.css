@@ -67,7 +67,7 @@ h1 {
 /* Push hero section down so it doesn't overlap logo */
 .hero {
   position: relative;
-  margin-top: 100px; /* <- ADDED */
+  margin-top: 160px; /* <- ADDED */
   text-align: center;
 }
 
