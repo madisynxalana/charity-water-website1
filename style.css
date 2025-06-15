@@ -52,16 +52,19 @@ h1 {
  
 
 .site-header {
+ .site-header {
   background-color: white;
   text-align: center;
-  padding: 10px 0;
-  z-index: 1000;
-  position: relative;
+  padding: 20px 0;
 }
 
 .site-header img {
+  display: block;
+  margin: 0 auto;
   max-width: 300px;
   height: auto;
+}
+
 }
 
 /* Push hero section down so it doesn't overlap logo */
